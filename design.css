@@ -1,0 +1,56 @@
+.main{
+    background: linear-gradient(#05cdff1a,#006eff36);
+    font-size:14px;
+    border: 3px solid rgba(169, 169, 169, 0.562);
+    padding: 30px 40px;/*border内*/
+    max-width:500px;
+    margin: 0 auto;/*border外*/
+    border-radius:30px;
+}
+
+.footer{
+    background: linear-gradient(rgba(211, 211, 211, 0.705),lightgray);
+    font-size:14px;
+    border: 3px dashed darkgrey;
+    padding: 15px 40px;/*border内*/
+    max-width:500px;
+    margin: 0 auto;/*border外*/
+    border-radius:30px;
+    font-weight:700;
+}
+input.text{
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(0, 89, 255, 0.89);
+    border-radius:3px;
+    margin-bottom: 5px;
+}
+
+.selectbox{
+    width: 27.7%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(0, 89, 255, 0.89);
+    border-radius:3px;
+    margin-bottom: 5px;
+}
+
+.error{
+ color:red;
+}
+
+.select{
+    font-size:14px;
+}
+
+.sentence{
+    font-size:12px;
+}
+
+input.button{
+    border-radius:5px;
+    background-color:white;
+}
