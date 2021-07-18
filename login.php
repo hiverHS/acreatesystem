@@ -105,7 +105,8 @@ if(isset($_POST['login'])&&empty($ELuserid)&&empty($ELpassword)){
  ?><br>
 
 <input class="button"  type="submit" value="ログイン" name="login"><br><br>
-<span>アカウント作成がまだの場合はアカウントを作成してください。</span>
+<span>アカウント作成がまだの場合はアカウントを作成してください。</span><br>
+
 <input class="button"  type="submit" value="アカウントの作成"　name="singup" formaction="entry.php">
 
  </form>
